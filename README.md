@@ -12,3 +12,11 @@ I wrote seven SQL queries to answer the following questions: which product categ
 What I Practised
 The project covered core SQL skills including aggregation, multi-table joins, and filtering. For the more advanced questions I used Common Table Expressions (CTEs) to break complex logic into readable steps, and window functions — specifically the LAG() function — to compare each customer's revenue against the prior year and calculate year-on-year change.
 
+#Business Question -> SQL Concepts Practised
+1. What is total revenue by product category, ranked? -> GROUP BY, SUM, ORDER BY
+2. Which country/region generates the most orders and revenue? -> Multi-table joins, aggregation
+3. Who are the top 10 customers by lifetime revenue? -> JOIN, GROUP BY, LIMIT
+4. Are those top customers ordering more or less over time (YoY)? -> Window functions, date functions
+5. Which products have declining sales in the most recent period?-> Subqueries or CTEs, date filtering
+6. What is the average freight cost per shipping country? -> AVG, GROUP BY, filtering
+7. Which employee handles the highest-value orders? -> Multi-table join, aggregation
